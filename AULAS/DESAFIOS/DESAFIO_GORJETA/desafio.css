@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 228, 231);
+}
+
+.txt {
+    font-family: 'Space Mono', monospace;
+}
+
+.txtC1 {
+    color: rgb(59, 98, 111);
+    font-size: 1.3em;
+    position: relative;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container_master {
+    background-color: rgb(251, 251, 251);
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 75%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.containerIL {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    position: relative;
+    left: 25px;
+    margin-top: 10px;
+}
+
+.txtB {
+    position: relative;
+    top: 40px;
+}
+
+input {
+    height: 30px;
+    width: 435px;
+    background-color: rgb(243, 248, 251);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: rgb(59, 98, 111);
+    opacity: 0.5;
+}
+
+.antes1::before {
+    content: "$";
+}
+
+.antes1::before {
+    content: "👤";
+}
+
+.containerB {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    /* align-items: center; */
+    justify-items: center;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    color: rgb(251, 251, 251);
+    background-color: rgb(0, 71, 75);
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button:active {
+    transition: 0.5;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.inputButton {
+    height: 50px;
+    width: 130px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(59, 98, 111);
+}
+
+.container_right {
+    background-color: rgb(0, 71, 75);
+}
+
+.containerIR {
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.gridR {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.inputRO {
+    background-color: rgb(0, 71, 75);
+    color: rgb(43, 243, 253);
+    font-size: 2em;
+    font-weight: bold;
+    width: 120px;
+    padding-left: 22px;
+}
+
+.inputRO::before {
+    content: "$";
+    margin-right: 2px;
+}
+
+.txtC2 {
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: rgb(251, 251, 251);
+}
+
+.txtC3 {
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+}
+
+.button_meio {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonR {
+    margin-top: 30px;
+    font-size: 1.2em;
+    height: 40px;
+    width: 350px;
+    color: #000;
+    background-color: rgb(12, 104, 109);
+}

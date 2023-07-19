@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px;
+    background-color: #288ba8;
+}
+
+form  {
+    color: #ffce30;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    display: inline-block
+}
+
+input, select {
+    background-color: #ffce30;
+    border: 2.5px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    color: #000000;
+    border: 5px solid #000000;
+}
+
+.botao {
+    font-weight: bold;
+    font-size: 1em;
+    border: 2px solid #000000;
+    background-color: #ffce30;
+}
+
+.botao:hover {
+    background-color: #000000;
+    color: #ffce30;
+    font-size: 2em;
+}

@@ -1,0 +1,1 @@
+const aliens = ["Acelerado", "AlienX", "Aquático", "Artrópode", "Atomico", "Bala de Canhão", "Besta", "Chama", "Cipó Seilvagem", "Cromático", "Diamante", "Eco Eco", "Enormossauro"]

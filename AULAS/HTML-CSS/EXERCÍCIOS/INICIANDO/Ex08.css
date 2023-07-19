@@ -1,0 +1,16 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( 150deg ,#FF0000 , #9400d3 );
+}
+
+h1 {
+    width: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 5em;
+    text-align: center;
+    display: inline-block;
+    margin-top: 100px;
+}

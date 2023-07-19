@@ -1,0 +1,25 @@
+body, html {
+    background-color: #000;
+}
+
+ul li {
+    font-size: 3em;
+    display: inline;
+    margin-right: 20px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul li:nth-child(1) a {
+    color: blue;
+}
+
+ul li:nth-child(2) a {
+    color: purple;
+}
+
+ul li:nth-child(3) a {
+    color: red;
+}

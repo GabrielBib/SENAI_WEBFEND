@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: rgb(179,229,159);
+    background: radial-gradient(circle, rgba(179,229,159,1) 0%, rgb(132, 190, 146) 37%);
+}
+
+.txt {
+    font-family: 'Tektur', cursive;
+}
+
+.logoBen10 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.fundo {
+    height: 500px;
+    opacity: 30%;
+}
+
+.geral {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaJogo {
+    height: 80%;
+    width: 70%;
+    background-color: orange;
+}
+
+.title {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.contadorVidas {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 100px;
+    position: absolute;
+    flex-direction: column;
+}
+
+.areaVidas {
+    height: 200px;
+}
+
+.txtTentativas {
+    font-size: 2em;
+    font-weight: bold;    
+}
+
+#vidas {
+    font-size: 7em;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    height: 90px;
+    border: 0px;
+    position: relative;
+    bottom: 143px;
+    right: 2px;
+    background-color: transparent;
+}
+
+
+

@@ -1,0 +1,42 @@
+body, html {
+    height: 2000px;
+}
+
+.box_1 {
+    height: 200px;
+    width: 200px;
+    background-color: #288ba8;
+    position: absolute;
+    z-index: 0;
+}
+
+.box_2 {
+    height: 200px;
+    width: 200px;
+    background-color: #e83845;
+    position: absolute;
+    z-index: 1;
+}
+
+.box_3 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffce30;
+    position: absolute;
+    z-index: 2;
+}
+
+.box_4 {
+    height: 600px;
+    width: 600px;
+    background-color: #e389b9;
+    position: relative;
+}
+
+.box_5 {
+    height: 300px;
+    width: 300px;
+    background-color: #746ab0;
+    position: absolute;
+    top: 0px;
+}

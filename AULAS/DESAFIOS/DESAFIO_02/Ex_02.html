@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_02</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" minlength="6" required>
+            </div>
+            <div></div>
+                <label for="confirmacaodesenha">Confirmação de senha</label>
+                <input type="password" name="confirmacaodesenha" id="confirmacaodesenha" required>
+            </div>
+            <div>
+                <label for="datanascimento">Data de nascimento</label>
+                <input type="date" name="datanascimento" id="datanascimento">
+            </div>
+            <div>
+                <label for="genero">Gênero</label>
+                <select name="genero" id="genero">                      <!--"hidden" para fazer sumir na seleção de opções-->
+                    <option value="" selected hidden>Selecione</option> <!--"selected" usado para aparecer ao abrir a pagina-->
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Outro</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

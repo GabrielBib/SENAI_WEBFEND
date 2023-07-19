@@ -1,0 +1,61 @@
+/* body, html {
+} */
+
+header div{
+    text-align: center;
+}
+
+.posicaoGeral {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    /* height: 100px; */
+    width: 450px;
+}
+
+.dimg {
+    /* display: inline-block; */
+    position: relative;
+    height: 800px;
+}
+
+.img {
+    height: 500px;
+    border: 10px solid #000000;
+    /* width: 1035px; */
+}
+
+.dadosProdutos {
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 580px;
+}
+
+.texto {
+    /* display: inline-block; */
+    /* position: relative;
+    left: 550px; */
+    /* bottom: 900px; */
+    margin-left: 80px;
+    font-size: 3em;
+}
+
+li {
+    list-style: none;
+    background-color: #fdcfcb;
+    margin: 200px 200px 200px 200px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.descricaoProdutos {
+    display: inline-block;
+    height: 500px;
+    width: 800px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,22 @@
+div {
+    display: inline-block;
+}
+
+div img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    filter: drop-shadow(10px 10px 5px #000);
+}
+
+div:nth-child(1) img {
+    background-color: #ffce30;
+}
+
+div:nth-child(2) img {
+    background-color: #288ba8;
+}
+
+div:nth-child(3) img {
+    background-color: #e83845;
+}

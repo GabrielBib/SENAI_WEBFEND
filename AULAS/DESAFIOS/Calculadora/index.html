@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/IMG/matematicas.png" type="image/x-icon">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div class="container_geral">
+            <div class="container container_superior">
+                <input type="text" class="input" id="visor" disabled>
+            </div>
+            <div class="container container_inferior">
+                <div class="box box_1"> <button class="button button_1" onclick="insereValor(7)"> 7 </button> </div>
+                <div class="box box_2"> <button class="button button_2" onclick="insereValor(8)"> 8 </button> </div>
+                <div class="box box_3"> <button class="button button_3" onclick="insereValor(9)"> 9 </button> </div>
+                <div class="box box_4"> <button class="button button_4" onclick="apaga()"> DEL </button> </div>
+                
+                <div class="box box_5"> <button class="button button_5" onclick="insereValor(4)"> 4 </button> </div>
+                <div class="box box_6"> <button class="button button_6" onclick="insereValor(5)"> 5 </button> </div>
+                <div class="box box_7"> <button class="button button_7" onclick="insereValor(6)"> 6 </button> </div>
+                <div class="box box_8"> <button class="button button_8" onclick="insereValor('/')"> ÷ </button> </div>
+                
+                <div class="box box_9"> <button class="button button_9" onclick="insereValor(1)"> 1 </button> </div>
+                <div class="box box_10"> <button class="button button_10" onclick="insereValor(2)"> 2 </button> </div>
+                <div class="box box_11"> <button class="button button_11" onclick="insereValor(3)"> 3 </button> </div>
+                <div class="box box_12"> <button class="button button_12" onclick="insereValor('*')"> x </button> </div>
+                
+                <div class="box box_13"> <button class="button button_13" onclick="insereValor('.')"> . </button> </div>
+                <div class="box box_14"> <button class="button button_14" onclick="insereValor(0)"> 0 </button> </div>
+                <div class="box box_15"> <button class="button button_15" onclick="insereValor('-')"> - </button> </div>
+                <div class="box box_16"> <button class="button button_16" onclick="insereValor('+')"> + </button> </div>
+                
+                <div class="box box_17"> <button class="button button_17" onclick="reset()"> RESET </button> </div>
+                <div class="box box_18"> <button class="button button_18" onclick="calcula()"> = </button> </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

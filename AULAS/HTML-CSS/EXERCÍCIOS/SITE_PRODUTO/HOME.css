@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*               header              */
+
+header {
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#ececf1;
+    border-bottom: 30px solid #0f0f00;
+}
+
+.img_logo {
+    margin-left: 200px;
+    height: 180px;
+}
+
+.container_00 {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_01 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links_01 {
+    text-decoration: none;
+    width: 33%;
+    margin: 0px 70px 0px 70px;
+    color: #0f0f00;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*               header              */
+
+/*                Main               */
+
+main {
+    height: 800px;
+    width: 100%;
+}
+
+/*                Main               */
+
+/*               Footer              */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
+    width: 100%;
+    background-color:#0f0f00;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container_02 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_03 {
+    font-size: 2em;
+    margin-right: 50px;
+    color: #9b9191;
+}
+
+.txtfooter {
+    display: inline-block;
+}
+
+.img_icon {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.links_02 {
+    text-decoration: none;
+    color: #0f0f00;
+    font-size: 1.2em;
+}
+
+.i_txt {
+    background: -webkit-linear-gradient(30deg, #f5d833, #cf1b1b, #f32c7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f_txt {
+    background: -webkit-linear-gradient(45deg, #28e3fc, #282be7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.t_txt {
+    background: -webkit-linear-gradient(60deg, #34ff90, #2beffd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container_05 {
+    color: #9b9191;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*               Footer              */

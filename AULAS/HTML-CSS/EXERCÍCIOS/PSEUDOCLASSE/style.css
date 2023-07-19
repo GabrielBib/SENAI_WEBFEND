@@ -1,0 +1,135 @@
+body,html {
+    background-color: #727c77;
+}
+
+/* Ex 01 */
+.imgcor {
+    color: #00ff00;
+}
+
+.imgcor:hover {
+    color: #ff0000;
+}
+
+/* Ex 02 */
+
+.botaocor {
+    color: yellow;
+    background-color: black;
+    height: 150px;
+    width: 200px;
+}
+
+.botaocor:active {
+    color: black;
+    background-color: yellow;
+}
+
+/* Ex 03 */
+
+#ex03:focus {
+    border: 5px solid #ff00ff;
+    height: 50px;
+    width: 100px;
+}
+
+/* Ex 04 */
+
+.li04:first-child {
+    color: #ff0000;
+    font-size: 3em;
+}
+
+/* Ex 05 */
+
+.li05:last-child {
+    color: #ff0000;
+    font-size: 3em;
+}
+
+/* Ex 06 */
+
+.li06:nth-child(even) {
+    color: #ff0000;
+    font-size: 3em;
+}
+
+/* Ex 07 */
+
+.li06:nth-child(odd) {
+    color: #ff0000;
+    font-size: 3em;
+}
+
+/* Ex 08 */
+
+div {
+    height: 300px;
+    width: 300px;
+}
+
+.c1 {
+    background-color: #ff00ff;
+    display: inline-block;
+    transition: 1s;
+}
+
+.c1:hover {
+    transform: rotateZ(50deg);
+    background-color: #00ff00;
+}
+
+.c2 {
+    background-color: #ff0000;
+    display: inline-block;
+    transition: 1s;
+}
+
+.c2:hover {
+    background-color: #00ffff;
+    transform: perspective(300px) rotateX(75deg) ;
+}
+
+.c3 {
+    background-color: #ffff00;
+    display: inline-block;
+    transition: 1s;
+}
+
+.c3:hover {
+    transform: rotateX(50deg);
+    background-color: #0f0fff;
+}
+
+h1 {
+    margin: 120px 105px;
+    font-size: 2em;
+}
+
+/* Ex 09 */
+
+button:focus {
+    background-color: #00ff00;
+    font-size: 3em;
+}
+
+/* Ex 10 */
+
+table tr th {
+    border: 3px solid #000000;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    border: 3px solid #000000;
+    padding: 5px;
+}
+
+tr:first-child td {
+    background-color: #ffff00;
+    font-size: 3em;
+    border-color: #00ffff;
+}

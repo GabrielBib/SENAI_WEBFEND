@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); /* font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); /* font-family: 'Roboto Mono', monospace; */
+
+html,body {
+    background-color: #261c21;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jogadores_placar {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f0f0f0;
+    
+}
+
+.arruma_txt {
+    margin: 0px 50px 0px 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.area_jogo {
+    background-color: #261c21;
+    height: 850px;
+    width: 850px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: #b0254f;
+    
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: #b0254f;
+    border: 5px solid #de4126;
+}

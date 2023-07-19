@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #dfece6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-family: 'Prompt', sans-serif;
+}
+
+.conteudo {
+    height: 350px;
+    width: 650px;
+    background-color: #215a6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #2d2d29;
+}
+
+.divTexto {
+    color: #dfece6;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 3em;
+    /* font-weight: bold; */
+}
+
+.inputs {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+    height: 30px;
+    width: 100px;
+    background-color: #dfece6;
+    font-size: 1.5em;
+    border: 2px solid #2d2d29;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+select {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    background-color: #dfece6;
+    appearance: none;
+    border-style: none;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.botao {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    font-size: 1em;
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+    border: 2px solid #2d2d29;
+    border-radius: 5px;
+    background-color: #dfece6;
+}
+
+button:active {
+    transition: 0.1ms;
+    transform: scale(0.98);
+
+}
+
+.resultado {
+    color: #dfece6;
+    margin-top: 40px;
+    font-size: 2.5em;
+    font-weight: bold;
+}

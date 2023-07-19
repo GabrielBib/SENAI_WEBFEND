@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="121_ex.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="conteudo">
+            <div class="divTexto">
+                <h1 class="txt gradiente">Calcule</h1>
+            </div>
+            <div class="inputs">
+                <input type="text" id="valor1" placeholder="0" class="txt">
+                <select id="operacao">
+                    <option value="somar" class="txt">+</option>
+                    <option value="subtrair" class="txt">-</option>
+                    <option value="multiplicar" class="txt">x</option>
+                    <option value="dividir" class="txt">÷</option>
+                </select>
+                <input type="text" id="valor2" placeholder="0" class="txt">
+            </div>
+            <div class="botao">
+                <button id="btn" onclick="calcular()" class="txt">Calcular</button>
+                <button id="btnReset" class="txt">Reset</button>
+            </div>
+            <div class="resultado">
+                <h1 id="resultado" class="txt">0</h1>
+            </div>
+    
+            <script src="121_ex.js"></script>
+        </body>
+        </div>
+</html>
